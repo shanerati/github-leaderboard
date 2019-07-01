@@ -1,0 +1,29 @@
+.commit-item {
+  display: flex;
+
+  &:not(:first-child) {
+    padding-top: 10px;
+  }
+
+  &:not(:last-child) {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.commit-item__author-col {
+  padding-right: 5px;
+  width: 120px;
+}
+
+.commit-item__author-name {
+  font-weight: bold;
+}
+
+.commit-item__date {
+  font-size: 10px;
+}
+
+.commit-item__msg-col {
+  flex: 1;
+}

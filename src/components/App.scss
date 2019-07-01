@@ -1,0 +1,42 @@
+body {
+  margin: 0px ;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  background-color: #f8f9fa;
+}
+
+.main {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  font-size: 24px;
+  padding: 10px 5vw 10px 5vw;
+  border-bottom: 1px solid #aaa;
+}
+
+
+/* Utilities */
+.ellipses {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
